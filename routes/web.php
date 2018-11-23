@@ -11,20 +11,8 @@
 |
 */
 
+Route::get('/','PagesController@home');
 
-Route::get('/', function () {
+Route::get('/contact','PagesController@contact');
 
-    return view('welcome')->withTasks([
-        'Task 1',
-        'Task 2',
-        'Task 3',
-    ]);
-});
-
-Route::get('/contact', function (){
-    return view('contact');
-});
-
-Route::get('/about', function (){
-    return view('about');
-});
+Route::get('/about','PagesController@about');
