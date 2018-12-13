@@ -36,15 +36,12 @@ class ProjectsController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store()
     {
-        $project = new Project();
-
-        $project->title = $request->input('title');
-        $project->description = $request->input('description');
-
-        $project->save();
-
+        Project::create([
+            'title' => request('title'),
+            'description' => request('description')
+        ]);
         return redirect('/projects');
     }
 
