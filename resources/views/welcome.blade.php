@@ -2,15 +2,6 @@
 
 @section('title', 'Home Page')
 
-
 @section('content')
-
-        <h1>First Laravel site!</h1>
-
-        <ul>
-            @foreach($tasks as $task)
-                <li>{{$task}}</li>
-            @endforeach
-        </ul>
-
+        <h1>Home Page</h1>
 @endsection
