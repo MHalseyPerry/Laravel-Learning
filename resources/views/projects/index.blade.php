@@ -20,7 +20,7 @@
         @foreach ($projects as $project)
             <tr>
                 <td>{{ $project->id }}</td>
-                <td>{{ $project->title }}</td>
+                <td><a href="{{route('projects.show', $project)}}">{{ $project->title }}</a></td>
                 <td>{{ $project->description }}</td>
                 <td>{{ $project->created_at }}</td>
                 <td>{{ $project->updated_at }}</td>
