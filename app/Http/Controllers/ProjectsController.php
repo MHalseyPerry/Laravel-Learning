@@ -82,6 +82,10 @@ class ProjectsController extends Controller
      */
     public function update(Request $request, Project $project)
     {
+        $request->validate([
+            'title' => 'required',
+            'description' => 'required'
+        ]);
 
         $title = $request->input('title');
         $description = $request->input('description');

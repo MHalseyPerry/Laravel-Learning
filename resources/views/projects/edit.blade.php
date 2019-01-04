@@ -31,6 +31,16 @@
                     <input type="submit" class="button" value="Update Project">
                 </div>
             </div>
+
+            @if ($errors->any())
+                <div class="notification">
+                    <ul>
+                        @foreach ($errors->all() as $error)
+                            <li>{{ $error }}</li>
+                        @endforeach
+                    </ul>
+                </div>
+            @endif
         </form>
 
         {{-- Form for deleting project entirely--}}
