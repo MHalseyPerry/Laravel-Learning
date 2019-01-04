@@ -28,8 +28,7 @@
 
             <div class="field">
                 <div class="control">
-                    {{-- <button type="submit" class="button is-link">Update Project</button> --}}
-                    <input type="submit" class="button is-link" value="Update Project">
+                    <input type="submit" class="button" value="Update Project">
                 </div>
             </div>
         </form>
@@ -40,8 +39,7 @@
         @csrf
             <div class="field">
                 <div class="control">
-            {{-- <button type="submit" class="button is-link">Update Project</button> --}}
-                <input type="submit" class="button is-link" value="Delete Project">
+                    <input type="submit" class="button" value="Delete Project">
                 </div>
             </div>
         </form>
