@@ -7,7 +7,7 @@
 
     <h1>Projects!</h1>
 
-    <table style="width: 50%; border-collapse: collapse;"border="1">
+    <table style="width: 50%; border-bordercolor:#D1F5BE; "border="1" >
         <tr>
             <th>ID</th>
             <th>Title</th>

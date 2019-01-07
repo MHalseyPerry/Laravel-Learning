@@ -1,0 +1,73 @@
+body{
+    background: #202030;
+    margin:0;
+    font-family: 'Staatliches', cursive;
+    color: #B4F5DE
+}
+
+table{
+    width: 50%;
+    border-collapse:collapse;
+    background-color: #55d6aa;
+    color: #202030;
+}
+
+th{
+    background-color: #B4F5DE;
+}
+
+tbody tr:nth-child(odd){
+    background-color: #14AE78;
+}
+
+tbody tr:nth-child(even){
+    background-color: #7EE7C2;
+}
+
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header{
+    background: #55d6aa
+}
+
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo {
+    float: left;
+    padding: 10px 0;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top:15px;
+}
+
+nav a {
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+nav a:hover{
+    color: #000
+}
