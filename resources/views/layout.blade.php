@@ -2,6 +2,11 @@
     <head>
         <link href="https://fonts.googleapis.com/css?family=Poppins|Staatliches" rel="stylesheet">
         <link href="/css/styles.css" rel="stylesheet" type="text/css">
+        <style>
+            .is-complete{
+                text-decoration: line-through;
+            }
+        </style>
         <title>@yield('title')</title>
     </head>
 

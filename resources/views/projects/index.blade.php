@@ -29,7 +29,9 @@
         @endforeach
     </table>
 
-
+    <form action="projects/create">
+        <input type="submit" value="Create New Project" />
+    </form>
 
 
 @endsection
